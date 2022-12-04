@@ -1,0 +1,23 @@
+{
+  "name": "flatacuties",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RemmyKyalo/flatacuties.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RemmyKyalo/flatacuties/issues"
+  },
+  "homepage": "https://github.com/RemmyKyalo/flatacuties#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
