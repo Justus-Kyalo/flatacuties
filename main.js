@@ -15,7 +15,7 @@ fetch(charactersApi)//passing  variable charactersApi containg local api address
 
 
     
-//function to render our characters to browser while styled
+//function to render our characters to browser
 function renderCharacter(character) {
     const characterColDiv = document.createElement("div");
     characterColDiv.classList.add("col-4");
@@ -49,9 +49,15 @@ function renderCharacter(character) {
     cardBody.appendChild(totalVotes);
 
     const button = document.createElement("button");
+    button.setAttribute('id' , 'clicking')
     button.innerText = 'Vote'
     button.classList.add("btn", "btn-primary");
     cardBody.appendChild(button);
 
-    
+    //add event listener to the above button
+    const voting = document.getElementById("clicking");
+    voting.addEventListener('click' , (totalVotes) => {
+        totalVotes = `${character.votes +1}`;
+    })
+
 }
