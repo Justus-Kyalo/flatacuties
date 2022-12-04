@@ -14,7 +14,9 @@ The instructions below will walk you through the process of ideation and plannin
 
 create index.html,main.js,license.md,db.json and install json server
 
-inside main.js link the frontend to our local API server
+inside main.js link the frontend to our local API server charactersApi
+
+fetch characters from charactersAPI USING fetch METHOD
 
 we can use postman or console to verify GET requests
 
